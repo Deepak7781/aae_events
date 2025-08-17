@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FLIGHT 2025 - Association of Aeronautical Engineers</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="flight25.css" />
+  </head>
+  <body>
+    <header class="top-banner">
+      <div class="container banner-content">
+        <img src="images/AAE SEAL 2.png" alt="AAE Logo" class="logo" />
+
+        <div class="text-content">
+          <p>ASSOCIATION OF AERONAUTICAL ENGINEERS</p>
+          <p>DEPARTMENT OF AEROSPACE ENGINEERING</p>
+          <p>MADRAS INSTITUTE OF TECHNOLOGY</p>
+        </div>
+
+        <button class="menu-icon" id="menuBtn" aria-label="Open menu">
+          <span>&#9776;</span>
+        </button>
+      </div>
+    </header>
+
+    <div id="backdrop" class="backdrop" aria-hidden="true"></div>
+
+    <nav
+      id="sideNav"
+      class="side-nav"
+      aria-hidden="true"
+      aria-label="Main navigation"
+    >
+      <button id="closeBtn" class="close-btn" aria-label="Close menu">
+        &times;
+      </button>
+
+      <ul class="side-nav-list">
+        <li><a href="index.html#home" class="side-link">Home</a></li>
+        <li><a href="index.html#about" class="side-link">About</a></li>
+        <li><a href="events.html" class="side-link">Events</a></li>
+        <li><a href="index.html#gallery" class="side-link">Gallery</a></li>
+        <li><a href="index.html#team" class="side-link">Team</a></li>
+        <li><a href="index.html#join" class="side-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero" id="flight-hero">
+      <div class="container hero-inner">
+        <h1>FLIGHT 2025</h1>
+        <p>
+          Pushing the boundaries of aerospace innovation. An overview of the
+          flagship symposium's events and competitions.
+        </p>
+        <div class="buttons">
+            <a href="events.html" class="btn-outline">Back to Events</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="event-details" class="section-details">
+      <div class="container details-grid">
+        <div class="detail-card">
+            <i class="fas fa-calendar-alt"></i>
+            <h3>Date</h3>
+            <p>August 25-27, 2025</p>
+        </div>
+        <div class="detail-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Location</h3>
+            <p>MIT Campus, Auditorium</p>
+        </div>
+        <div class="detail-card">
+            <i class="fas fa-users"></i>
+            <h3>Attendees</h3>
+            <p>Students, Faculty, Industry Experts</p>
+        </div>
+      </div>
+      <div class="container event-description">
+        <p>
+          FLIGHT 2025 was the Association of Aeronautical Engineers' premier annual symposium, 
+          bringing together the brightest minds in aerospace engineering. This year's theme, 
+          "Sustainable Skies: The Future of Flight", focused on environmentally conscious design, 
+          alternative propulsion, and advanced materials. The event included keynote addresses from 
+          global leaders, hands-on workshops, and a prestigious design competition.
+        </p>
+      </div>
+    </section>
+
+    <section id="workshops-competitions" class="section-workshops">
+      <h2 class="section-title">Workshops & Competitions</h2>
+
+        <div class="event-section bg-drone-racing">
+            <div class="event-content-box">
+                <div class="event-meta">
+                    <span class="meta-item"><i class="fas fa-trophy"></i> Competition</span>
+                    <span class="meta-item"><i class="fas fa-dollar-sign"></i> Prize Pool</span>
+                    <span class="meta-item"><i class="fas fa-users"></i> Team Event</span>
+                </div>
+                <h3>Drone Racing Event</h3>
+                <p>
+                    A thrilling competition where participants race their custom-built drones through a complex, multi-level obstacle course. The event tests not only the speed and agility of the drones but also the pilots' precision and fast-paced decision-making skills. The competition highlights the importance of aerodynamics, power systems, and control systems in an exciting, high-stakes format.
+                </p>
+                <div class="event-gallery-container">
+                    <figure class="gallery-item">
+                        <img src="images/Drone_Racing/dronerace1.JPG" alt="A drone racing through an obstacle course" />
+                        <figcaption>A competitor's view of the race</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/Drone_Racing/dronerace2.JPG" alt="A group of people preparing their drones" />
+                        <figcaption>Pre-race checks and calibrations</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/Drone_Racing/dronerace3.JPG" alt="A first-person view from a racing drone" />
+                        <figcaption>The challenging obstacle course</figcaption>
+                    </figure>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="event-section bg-rc-plane">
+            <div class="event-content-box">
+                <div class="event-meta">
+                    <span class="meta-item"><i class="fas fa-trophy"></i> Competition</span>
+                    <span class="meta-item"><i class="fas fa-star"></i> Intermediate Level</span>
+                </div>
+                <h3>RC Plane Competition</h3>
+                <p>
+                    This competition challenges participants to design, build, and fly a remote-controlled aircraft to complete a series of aerobatic and endurance tasks. Judged on flight performance, design efficiency, and stability, this event is a true test of aeromodelling expertise. It provides an excellent opportunity for aspiring engineers to apply theoretical knowledge of aerodynamics and structural design in a practical setting.
+                </p>
+                <div class="event-gallery-container">
+                    <figure class="gallery-item">
+                        <img src="images/rc_plane_comp.jpg" alt="An RC plane flying gracefully in the sky" />
+                        <figcaption>A plane in a perfect loop</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/rc_plane_comp_2.jpg" alt="Competitors launching an RC plane" />
+                        <figcaption>The moment of truth: a launch</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/rc_plane_comp_3.jpg" alt="An RC plane performing a loop-de-loop" />
+                        <figcaption>Performing challenging aerobatics</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/rc_plane_comp_4.jpg" alt="A team of students showing off their RC plane" />
+                        <figcaption>The design team with their creation</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div class="event-section bg-glider-comp">
+            <div class="event-content-box">
+                <div class="event-meta">
+                    <span class="meta-item"><i class="fas fa-trophy"></i> Competition</span>
+                    <span class="meta-item"><i class="fas fa-seedling"></i> Beginner Friendly</span>
+                </div>
+                <h3>Glider Modelling & Competition</h3>
+                <p>
+                    Participants are introduced to the fundamental principles of glider design, aerodynamics, and lightweight construction. This hands-on workshop is followed by a competition where teams launch their hand-built gliders, with the winning team determined by the longest flight duration. The event fosters creativity and a deep understanding of flight physics without the complexity of powered flight.
+                </p>
+                <div class="event-gallery-container">
+                    <figure class="gallery-item">
+                        <img src="images/glider_comp.jpg" alt="Students building a glider in a workshop" />
+                        <figcaption>Learning the basics of aerofoils</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/glider_comp_2.jpg" alt="A glider in mid-air during the competition" />
+                        <figcaption>Longest flight duration wins!</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/glider_comp_3.jpg" alt="A close-up of a glider's wing structure" />
+                        <figcaption>Detailed wing design</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/glider_comp_4.jpg" alt="The winning team with their long-flying glider" />
+                        <figcaption>Celebrating the flight</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        
+        <div class="event-section bg-paper-pres">
+            <div class="event-content-box">
+                <div class="event-meta">
+                    <span class="meta-item"><i class="fas fa-chalkboard-teacher"></i> Presentation</span>
+                    <span class="meta-item"><i class="fas fa-microphone"></i> Public Speaking</span>
+                </div>
+                <h3>Paper Presentation</h3>
+                <p>
+                    This event serves as a premier platform for students, researchers, and professionals to present their latest findings and innovative ideas in aerospace engineering. Topics range from propulsion systems and advanced materials to sustainable aviation and space exploration. It's an opportunity to engage in intellectual discourse, receive feedback from experts, and contribute to the aerospace community.
+                </p>
+                <div class="event-gallery-container">
+                    <figure class="gallery-item">
+                        <img src="images/Paper_Presentation/pp1.JPG" alt="A presenter at a podium with a technical slide" />
+                        <figcaption>Sharing knowledge and research</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/Paper_Presentation/pp2.JPG" alt="The audience listening to a presentation" />
+                        <figcaption>Engaged audience members</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/Paper_Presentation/pp3.JPG" alt="A student explaining their research poster" />
+                        <figcaption>Poster session discussions</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/Paper_Presentation/pp4.JPG" alt="A panel of judges evaluating a paper presentation" />
+                        <figcaption>Expert feedback and evaluation</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div class="event-section bg-aircrash-inv">
+            <div class="event-content-box">
+                <div class="event-meta">
+                    <span class="meta-item"><i class="fas fa-trophy"></i> Competition</span>
+                    <span class="meta-item"><i class="fas fa-search"></i> Case Study</span>
+                </div>
+                <h3>Aircrash Investigation</h3>
+                <p>
+                    A simulation-based workshop where teams step into the shoes of aviation accident investigators. They are given a detailed scenario, including flight data, cockpit voice recordings, and evidence from the crash site. Teams must use their knowledge of aerospace systems, human factors, and forensic analysis to determine the cause of the simulated crash and propose safety recommendations.
+                </p>
+                <div class="event-gallery-container">
+                    <figure class="gallery-item">
+                        <img src="images/aircrash_investigation.jpg" alt="A team of students analyzing flight data" />
+                        <figcaption>Analyzing black box data</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/aircrash_investigation_2.jpg" alt="A detailed schematic of an aircraft" />
+                        <figcaption>Examining aircraft schematics</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/aircrash_investigation_3.jpg" alt="Students discussing the crash scenario with a mentor" />
+                        <figcaption>Collaborative problem-solving</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/aircrash_investigation_4.jpg" alt="A whiteboard covered with investigation notes and diagrams" />
+                        <figcaption>Developing the investigation timeline</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        
+        <div class="event-section bg-drone-workshop">
+            <div class="event-content-box">
+                <div class="event-meta">
+                    <span class="meta-item"><i class="fas fa-tools"></i> Workshop</span>
+                    <span class="meta-item"><i class="fas fa-handshake-alt-slash"></i> Hands-on Experience</span>
+                </div>
+                <h3>Drone Workshop</h3>
+                <p>
+                    An intensive, hands-on workshop designed to provide participants with a comprehensive understanding of drone technology. Starting with the fundamental principles of flight, participants move on to the assembly of a real-time drone, including soldering, programming, and calibration. The workshop culminates in a supervised test flight, giving participants a complete, practical experience.
+                </p>
+                <div class="event-gallery-container">
+                    <figure class="gallery-item">
+                        <img src="images/drone_workshop/drone1.JPG" alt="Students assembling a drone" />
+                        <figcaption>Assembling the drone frame</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/drone_workshop/drone2.JPG" alt="A close-up of a student soldering a circuit board" />
+                        <figcaption>Soldering the flight controller</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/drone_workshop/drone3.JPG" alt="A mentor demonstrating drone flight" />
+                        <figcaption>Learning to fly from an expert</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/drone_workshop/drone4.JPG" alt="A group of students with their completed drones" />
+                        <figcaption>The final product</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div class="event-section bg-avionics-workshop">
+            <div class="event-content-box">
+                <div class="event-meta">
+                    <span class="meta-item"><i class="fas fa-tools"></i> Workshop</span>
+                    <span class="meta-item"><i class="fas fa-code"></i> Programming & Electronics</span>
+                </div>
+                <h3>Avionics Workshop</h3>
+                <p>
+                    This workshop delves into the world of aircraft electronics, teaching participants the basics of ADA programming and its application in aviation systems. Participants gain practical experience working with Arduino boards to build and program simple avionics components, such as flight control indicators and sensor systems. It's an excellent introduction to embedded systems in an aerospace context.
+                </p>
+                <div class="event-gallery-container">
+                    <figure class="gallery-item">
+                        <img src="images/avionics_workshop.jpg" alt="Components and tools used in an avionics workshop" />
+                        <figcaption>Workshop tools and components</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/avionics_workshop_2.jpg" alt="A student working with an Arduino board" />
+                        <figcaption>Programming an Arduino board</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/avionics_workshop_3.jpg" alt="A mentor explaining an avionics schematic" />
+                        <figcaption>Understanding the wiring diagram</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/avionics_workshop_4.jpg" alt="A completed avionics project displaying data" />
+                        <figcaption>The functional prototype</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div class="event-section bg-basics-flight">
+            <div class="event-content-box">
+                <div class="event-meta">
+                    <span class="meta-item"><i class="fas fa-tools"></i> Workshop</span>
+                    <span class="meta-item"><i class="fas fa-seedling"></i> Beginner Friendly</span>
+                </div>
+                <h3>Basics of Flight</h3>
+                <p>
+                    Tailored for first- and second-year students, this introductory workshop demystifies the principles of flight. Topics covered include the four forces of flight (lift, thrust, drag, weight), airfoil design, and the basics of aircraft stability and control. The session uses interactive models and simple experiments to make complex concepts easy to understand and engaging.
+                </p>
+                <div class="event-gallery-container">
+                    <figure class="gallery-item">
+                        <img src="images/basics_of_flight.jpg" alt="A teacher explaining an airfoil to students" />
+                        <figcaption>Understanding airfoil design</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/basics_of_flight_2.jpg" alt="A model airplane used for demonstration" />
+                        <figcaption>Practical demonstrations with models</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/basics_of_flight_3.jpg" alt="Students conducting a simple flight experiment" />
+                        <figcaption>Hands-on experiments</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/basics_of_flight_4.jpg" alt="A diagram illustrating the forces of flight" />
+                        <figcaption>The fundamental forces of flight</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div class="event-section bg-composite-workshop">
+            <div class="event-content-box">
+                <div class="event-meta">
+                    <span class="meta-item"><i class="fas fa-tools"></i> Workshop</span>
+                    <span class="meta-item"><i class="fas fa-ruler-combined"></i> Materials & Fabrication</span>
+                </div>
+                <h3>Composite Workshop</h3>
+                <p>
+                    A two-day workshop on the use of composite materials in aerospace engineering. Participants learn about different types of composites, their manufacturing processes, and testing methods. The hands-on session focuses on fabrication techniques like lay-up and vacuum bagging, giving students practical experience in creating strong, lightweight materials essential for modern aircraft and spacecraft.
+                </p>
+                <div class="event-gallery-container">
+                    
+                    <figure class="gallery-item">
+                        <img src="images/composites/c2.JPG" alt="A mentor demonstrating the vacuum bagging process" />
+                        <figcaption>Demonstrating vacuum bagging</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/composites/c3.JPG" alt="A sample of a finished composite material" />
+                        <figcaption>A finished carbon fiber panel</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/composites/c4.JPG" alt="A close-up of a carbon fiber weave" />
+                        <figcaption>The intricate weave of carbon fiber</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/composites/c5.JPG" alt="Students working with composite materials" />
+                        <figcaption>Preparing the composite layup</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div class="event-section bg-bottle-rocketry">
+            <div class="event-content-box">
+                <div class="event-meta">
+                    <span class="meta-item"><i class="fas fa-trophy"></i> Competition</span>
+                    <span class="meta-item"><i class="fas fa-seedling"></i> Beginner Friendly</span>
+                </div>
+                <h3>Bottle Rocketry</h3>
+                <p>
+                    A fun and competitive event where teams design and construct water bottle rockets. The workshop covers the basics of propulsion, stability, and trajectory. Participants then compete to launch their rockets for maximum altitude and flight time, learning key principles of rocketry in an accessible and exciting way.
+                </p>
+                <div class="event-gallery-container">
+                    <figure class="gallery-item">
+                        <img src="images/bottle_rocketry.jpg" alt="A bottle rocket launching into the sky" />
+                        <figcaption>Lift-off!</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/bottle_rocketry_2.jpg" alt="Students preparing their bottle rocket for launch" />
+                        <figcaption>Final preparations</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/bottle_rocketry_3.jpg" alt="A group of students celebrating a successful launch" />
+                        <figcaption>Celebrating a successful flight</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/bottle_rocketry_4.jpg" alt="The components of a bottle rocket laid out" />
+                        <figcaption>Designing the rocket components</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div class="event-section bg-rocket-building">
+            <div class="event-content-box">
+                <div class="event-meta">
+                    <span class="meta-item"><i class="fas fa-tools"></i> Workshop</span>
+                    <span class="meta-item"><i class="fas fa-rocket"></i> Model Rocketry</span>
+                </div>
+                <h3>Rocket Building Workshop</h3>
+                <p>
+                    This workshop introduces participants to the fundamentals of model rocketry, including design considerations for propulsion, aerodynamics, and stability. Teams work together to build their own model rockets from a kit, learning about the various components like the nose cone, fins, and engine. The workshop concludes with a launch day to test their creations.
+                </p>
+                <div class="event-gallery-container">
+                    <figure class="gallery-item">
+                        <img src="images/Rocket_Building/rocket1.jpg" alt="Students building a model rocket" />
+                        <figcaption>Assembling the rocket body</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/Rocket_Building/rocket2.jpg" alt="A completed model rocket ready for launch" />
+                        <figcaption>The finished model</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/Rocket_Building/rocket3.jpg" alt="A model rocket launch on a clear day" />
+                        <figcaption>The excitement of launch day</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/Rocket_Building/rocket4.jpg" alt="A mentor providing guidance on rocket construction" />
+                        <figcaption>Expert guidance and support</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div class="event-section bg-rc-plane-building">
+            <div class="event-content-box">
+                <div class="event-meta">
+                    <span class="meta-item"><i class="fas fa-tools"></i> Workshop</span>
+                    <span class="meta-item"><i class="fas fa-plane"></i> Hands-on Aeromodelling</span>
+                </div>
+                <h3>RC Plane Building</h3>
+                <p>
+                    A hands-on workshop focused on the practical construction of remote-controlled planes. Participants learn about structural materials, electronics integration, and control surface setup. The collaborative environment allows for peer learning and mentorship, culminating in a successful maiden flight of their self-built aircraft.
+                </p>
+                <div class="event-gallery-container">
+                    <figure class="gallery-item">
+                        <img src="images/RC_Plane/rc1.JPG" alt="A team of students building an RC plane" />
+                        <figcaption>Working on the fuselage</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/RC_Plane/rc3.JPG" alt="A close-up of a student working on the electronics" />
+                        <figcaption>Wiring the control electronics</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/RC_Plane/rc4.JPG" alt="An instructor showing how to attach the wings" />
+                        <figcaption>Attaching the wings with precision</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/RC_Plane/rc7.JPG" alt="A test flight of the newly built RC plane" />
+                        <figcaption>First flight of a new plane</figcaption>
+                    </figure>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="event-section bg-ic-engines">
+            <div class="event-content-box">
+                <div class="event-meta">
+                    <span class="meta-item"><i class="fas fa-tools"></i> Workshop</span>
+                    <span class="meta-item"><i class="fas fa-cogs"></i> Mechanical Engineering</span>
+                </div>
+                <h3>IC Engines Workshop</h3>
+                <p>
+                    An in-depth exploration of Internal Combustion (IC) Engines, covering their fundamental working principles, different types (e.g., piston, jet), and their application in aviation. The workshop provides theoretical insights alongside practical demonstrations, including the disassembly and reassembly of a small engine to understand its components and mechanisms.
+                </p>
+                <div class="event-gallery-container">
+                    <figure class="gallery-item">
+                        <img src="images/IC_Engine/ic1.JPG" alt="An internal combustion engine model" />
+                        <figcaption>A detailed engine model</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/IC_Engine/ic2.JPG" alt="Students examining the parts of an engine" />
+                        <figcaption>Understanding the internal components</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/IC_Engine/ic3.JPG" alt="A mentor explaining the engine cycle" />
+                        <figcaption>The four-stroke engine cycle</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/IC_Engine/ic5.JPG" alt="A live demonstration of a running engine" />
+                        <figcaption>A running engine demonstration</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div class="event-section bg-jet-handling">
+            <div class="event-content-box">
+                <div class="event-meta">
+                    <span class="meta-item"><i class="fas fa-tools"></i> Workshop</span>
+                    <span class="meta-item"><i class="fas fa-fire-alt"></i> Live Demonstration</span>
+                </div>
+                <h3>Jet Handling</h3>
+                <p>
+                    This workshop offers an exclusive opportunity to gain an in-depth understanding of turbojet engines and their applications. The session covers the theory of jet propulsion and culminates in a live firing demonstration of a scaled-down jet engine. Participants learn about the components of a jet engine and the immense power they generate.
+                </p>
+                <div class="event-gallery-container">
+                    <figure class="gallery-item">
+                        <img src="images/Jet_Handling/jet1.JPG" alt="A live jet engine firing demonstration" />
+                        <figcaption>The incredible power of a jet engine</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/Jet_Handling/jet2.JPG" alt="Students observing a jet engine up close" />
+                        <figcaption>A close look at the components</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/Jet_Handling/jet3.JPG" alt="An instructor explaining the components of a turbojet" />
+                        <figcaption>Explaining jet propulsion theory</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/Jet_Handling/jet4.JPG" alt="The control panel for the jet engine" />
+                        <figcaption>The control panel for the demonstration</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div class="event-section bg-ansys-workshop">
+            <div class="event-content-box">
+                <div class="event-meta">
+                    <span class="meta-item"><i class="fas fa-tools"></i> Workshop</span>
+                    <span class="meta-item"><i class="fas fa-laptop-code"></i> Software & Simulation</span>
+                </div>
+                <h3>ANSYS Workshop</h3>
+                <p>
+                    An advanced workshop focused on enhancing skills in analyzing engineering components using ANSYS Workbench. This session teaches participants how to perform structural, thermal, and fluid dynamics simulations. It is a critical skill for modern aerospace design, allowing engineers to test concepts virtually before physical prototyping.
+                </p>
+                <div class="event-gallery-container">
+                    <figure class="gallery-item">
+                        <img src="images/Ansys/ansys1.JPG" alt="An ANSYS software interface showing a simulation" />
+                        <figcaption>Performing a structural analysis</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/Ansys/ansys2.JPG" alt="A group of students working on ANSYS simulations" />
+                        <figcaption>Collaborating on a project</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/Ansys/ansys3.JPG" alt="A mentor helping a student with their simulation" />
+                        <figcaption>Expert guidance on simulations</figcaption>
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="images/Ansys/ansys4.JPG" alt="A 3D model of an aircraft part being analyzed in ANSYS" />
+                        <figcaption>Visualizing a fluid dynamics simulation</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+    <section id="register" class="cta-register">
+        <div class="container">
+            <h2>See you at our next event!</h2>
+            <p>Stay connected with us for future symposiums, workshops, and competitions.</p>
+            <a href="events.html" class="btn cta-btn">Back to Events</a>
+        </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-left">
+          <img src="images/AAE SEAL 2.png" alt="AAE Logo" class="footer-logo" />
+          <h2>Association of Aeronautical Engineers</h2>
+          <p>
+            AAE explores the unknown in air and space, innovates for the benefit
+            of humanity, and inspires the world through discovery.
+          </p>
+          <a href="#mission" class="footer-link">About AAE's Mission</a><br />
+          <a href="#join" class="join-link">Join Us <span>→</span></a>
+        </div>
+
+        <div class="footer-links">
+          <div>
+            <a href="index.html#home">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="events.html">Events</a>
+            <a href="index.html#gallery">Gallery</a>
+            <a href="index.html#team">Team</a>
+          </div>
+          <div>
+            <a href="index.html#projects">Projects</a>
+            <a href="index.html#research">Research</a>
+            <a href="index.html#achievements">Achievements</a>
+            <a href="index.html#publications">Publications</a>
+            <a href="index.html#contact">Contact</a>
+          </div>
+          <div>
+            <a href="index.html#careers">Careers</a>
+            <a href="index.html#internships">Internships</a>
+            <a href="index.html#resources">Resources</a>
+            <a href="index.html#alumni">Alumni</a>
+            <a href="index.html#faq">FAQ</a>
+          </div>
+        </div>
+
+        <div class="footer-social">
+          <h4>Follow AAE</h4>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+          <a href="#social-more" class="footer-link">More AAE Social Accounts</a
+          ><br />
+          <a href="#newsletter" class="footer-link">AAE Newsletters</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; 2025 Association of Aeronautical Engineers. All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      const menuBtn = document.getElementById("menuBtn");
+      const sideNav = document.getElementById("sideNav");
+      const backdrop = document.getElementById("backdrop");
+      const closeBtn = document.getElementById("closeBtn");
+      const sideLinks = document.querySelectorAll(".side-link");
+
+      function openNav() {
+        sideNav.classList.add("open");
+        backdrop.classList.add("show");
+        sideNav.setAttribute("aria-hidden", "false");
+        backdrop.setAttribute("aria-hidden", "false");
+        // optionally trap focus here
+      }
+
+      function closeNav() {
+        sideNav.classList.remove("open");
+        backdrop.classList.remove("show");
+        sideNav.setAttribute("aria-hidden", "true");
+        backdrop.setAttribute("aria-hidden", "true");
+      }
+
+      menuBtn.addEventListener("click", openNav);
+      closeBtn.addEventListener("click", closeNav);
+      backdrop.addEventListener("click", closeNav);
+
+      // close when clicking a nav link
+      sideLinks.forEach((l) => l.addEventListener("click", closeNav));
+
+      // close on Escape
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") closeNav();
+      });
+    </script>
+  </body>
+</html>
