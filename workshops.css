@@ -1,9 +1,5 @@
 /* workshops.css */
-/* Tailored for the Workshops page, based on flight25.css, seminars.css, lectures.css, and competitions.css for consistency.
-   Uses full-width sections with background images and galleries for past workshop details.
-   Includes Back to Events button in header. */
 
-/* Reset */
 * {
     margin: 0;
     padding: 0;

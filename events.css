@@ -1,9 +1,5 @@
 /* events.css */
-/* Updated to fix title color blending in Industrial Visits section by changing to --accent-gold for contrast.
-   Maintains cohesive aerospace theme with subtle colors and unique non-color elements (patterns, borders, icons).
-   Buttons remain clickable with pointer-events, z-index, and touch support. */
 
-/* Reset */
 * {
     margin: 0;
     padding: 0;

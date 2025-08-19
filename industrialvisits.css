@@ -1,9 +1,5 @@
 /* industrial.css */
-/* Tailored for the Industrial Visits page, based on flight25.css, seminars.css, lectures.css, competitions.css, and workshops.css for consistency.
-   Uses full-width sections with background images and galleries for past industrial visit details.
-   Includes Back to Events button in header. */
 
-/* Reset */
 * {
     margin: 0;
     padding: 0;
